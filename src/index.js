@@ -1,14 +1,10 @@
 import React from 'react';
 
-class HelloWorld extends React.Component {
-  render() {
-    return <h1>Hello World</h1>;
-  }
-}
+import App from './app';
 
 document.addEventListener('DOMContentLoaded', function() {
   React.render(
-    <HelloWorld></HelloWorld>,
+    <App></App>,
     document.body
   );
 });
