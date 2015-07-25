@@ -1,0 +1,16 @@
+{
+  "name": "lp-sync",
+  "version": "0.1.0",
+  "description": "A webapp to allow you to watch multiple perspectives of Youtube letsplays at once.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giodamelio/lp-sync.git"
+  },
+  "author": "Gio d'Amelio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giodamelio/lp-sync/issues"
+  },
+  "homepage": "https://github.com/giodamelio/lp-sync#readme"
+}
