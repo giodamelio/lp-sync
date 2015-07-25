@@ -5,7 +5,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
   entry: [
-    "./src/index.js"
+    "./src/index.jsx"
   ],
   output: {
     path: path.join(__dirname, "dist/"),
@@ -16,7 +16,7 @@ module.exports = {
     loaders: [
       // Load js with jsx and babel
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         loaders: ["babel"],
         exclude: /node_modules/
       }
@@ -24,8 +24,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Let's Play Sync",
-      inject: "head"
+      template: "src/index.html",
+      hash: true
     })
   ]
 };
